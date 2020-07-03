@@ -26,10 +26,10 @@ class Paneel extends JPanel
 
     public Paneel()
     {
-        knop = new JButton("Klik");
+        knop = new JButton("Klik!");
         knop.addActionListener( new KnopHandler());
 
-        herstelknop = new JButton("Uitvegen");
+        herstelknop = new JButton("Uitvegen!");
         herstelknop.addActionListener(new HerstelknopHandler());
 
         tekstvak = new JTextField(10);
