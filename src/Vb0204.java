@@ -26,10 +26,10 @@ class Paneel extends JPanel
 
     public Paneel()
     {
-        knop = new JButton("Berekenen transportkosten starten");
+        knop = new JButton("Klik");
         knop.addActionListener( new KnopHandler());
 
-        herstelknop = new JButton("Berekenen transportkosten annuleren");
+        herstelknop = new JButton("Uitvegen");
         herstelknop.addActionListener(new HerstelknopHandler());
 
         tekstvak = new JTextField(10);
@@ -42,7 +42,7 @@ class Paneel extends JPanel
     {
         public void actionPerformed(ActionEvent e)
         {
-            tekstvak.setText("Berekenen van de transportkosten...");
+            tekstvak.setText("Je hebt geklikt!");
         }
     }
     //Nog een inwendige klasse
